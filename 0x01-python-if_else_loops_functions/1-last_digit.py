@@ -3,7 +3,7 @@ import random
 import math
 number = random.randint(-10000, 10000)
 last_num = math.fmod(number, 10)
-print("Last digit of {:.0f} is {:.0f} and is".format(number, last_num), end=" ")
+print("Last digit of {} is {} and is".format(number, last_num), end=" ")
 if last_num > 5:
     print("greater than 5")
 elif last_num == 0:
